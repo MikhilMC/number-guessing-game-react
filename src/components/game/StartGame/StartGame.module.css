@@ -1,0 +1,24 @@
+.label {
+    font-family: "Open-Sans", sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    color: var(--darkShade);
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 0.5rem;
+    margin: 0.75rem 0;
+    height: 2.5rem;
+    width: 100%;
+    background-color: var(--lighterColor);
+    text-align: center;
+    font-size: xx-large;
+    color: var(--darkerShade);
+    border-radius: 15px;
+    border-color: var(--lighterColor);
+}
+
+.input:focus {
+    border-color: var(--darkerShade);
+}

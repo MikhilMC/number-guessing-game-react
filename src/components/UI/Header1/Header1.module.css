@@ -1,0 +1,6 @@
+.header1 {
+    font-family: "Open-Sans", sans-serif;
+    color: var(--darkerShade);
+    border: 2px solid var(--darkerShade);
+    padding: 3px;
+}

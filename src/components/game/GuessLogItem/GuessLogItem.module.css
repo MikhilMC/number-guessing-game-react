@@ -1,0 +1,17 @@
+.logItem {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 15px 150px;
+    margin: 15px;
+    border-radius: 15px;
+    width: 200px;
+    background-color: var(--darkShade);
+}
+
+.logItemText {
+    color: white;
+    font-family: "Open-Sans", sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+}

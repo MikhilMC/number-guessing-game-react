@@ -1,0 +1,30 @@
+.button {
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    background-color: var(--darkerShade);
+    color: white;
+}
+
+.button:hover::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Adjust the gap as needed */
+    left: -10px;
+    /* Adjust the gap as needed */
+    right: -10px;
+    /* Adjust the gap as needed */
+    bottom: -10px;
+    /* Adjust the gap as needed */
+    border: 2px solid;
+    /* Adjust the border thickness as needed */
+    border-color: var(--darkerShade);
+    pointer-events: none;
+    /* Ensure it doesn't block button clicks */
+    border-radius: 26px;
+    color: white;
+}

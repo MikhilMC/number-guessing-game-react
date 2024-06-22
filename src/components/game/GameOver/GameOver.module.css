@@ -1,0 +1,12 @@
+.summary {
+    font-family: "Open-Sans", sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    color: var(--darkShade);
+    margin-bottom: 30px;
+}
+
+.summary span {
+    color: var(--darkerShade);
+    font-weight: 900;
+}
